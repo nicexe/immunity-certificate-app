@@ -1,3 +1,7 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/trustwise/immunity-certificate-app) 
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/trustwise/immunity-certificate-app) 
+
 # Immunity Certificate App
 
 ## Preparation of Authority and Tester accounts using MetaMask
@@ -26,7 +30,7 @@ This can be done easily with MetaMask and Remix. Be sure that `Authority` accoun
 5. Open Deploy and Run Transactions view from the left toolbar and select Injected Web3 as Environment.
 6. Select Test Registry contract to be deployed and provide authority address from MetaMask to the contract constructor to the input located on the right side from Deploy button in the following format: `["0x38690D95E783Bc216A8428764a4D4B8f3E5595bf"]` where `0x38690D95E783Bc216A8428764a4D4B8f3E5595bf` is the authority address from MetaMask.
 7. Deploy the contract by clicking deploy button and sign the transaction via MetaMask. After the block with transaction is mined the contract should appear in the Deploy and Run Transactions window.
-8. Select Immunity Certificate contract to be deployed and provide it with the following constructor parameters: `"0x98EBC26814A37148e12eef1C5905Ae1EcB348f8F", "Covid19 Immunity Certificate"` where `0x98EBC26814A37148e12eef1C5905Ae1EcB348f8F` is the address of just deployed Registry contract and `Covid19 Immunity Certificate` is the description of the certificate contract.
+8. Select Immunity Certificate contract to be deployed and provide it with the following constructor parameters: `"0x1D9655a958b00FF1C2b0CA3b5a79523B1a926754", "Covid19 Immunity Certificate"` where `0x1D9655a958b00FF1C2b0CA3b5a79523B1a926754` is the address of just deployed Registry contract and `Covid19 Immunity Certificate` is the description of the certificate contract.
 9. Open `contractAddresses.js` file from this repository and update contract addresses with just deployed ones.
 
 
